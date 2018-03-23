@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Yurii Koval">
+    <meta name="description" content="this page is a homework">
+    <title>Form Sample</title>
+</head>
+<body>
+    <header>
+        <h3>Resolve the tasks. Do not cheat!</h3>
+        <p>
+            <b> THE BIG BROTHER IS WATCHING YOU!</b>
+        </p>
+        <p>
+            <img src = "pictures/3607.jpg" alt = "The Big Brother">
+        </p>
+    </header>
+    <main>
+        <p>
+            <a href="index.html">Return to the home page.</a>
+        </p>
+        <form method = "POST" action="https://formspree.io/10a014k@gmail.com"> <!--Why github does't replace one file with another and just make something intermediate?-->
+            <lable>
+                What is HTML? (0 or 1 point)<br>
+                <input type = "radio" name = "question1-v1" value="an internet protocol"> an internet protocol <br>
+                <input type = "radio" name = "question1-v2" value="a makeup language for creating web pages"> a makeup language for creating web pages <br>
+                <input type = "radio" name = "question1-v3" value="a programming language for creating web pages"> a programming language for creating web pages <br>
+                <input type = "radio" name = "question1-v4" value="it is not connected to the internet"> it is not connected to the internet <br>
+            </lable>
+            <p></p> <!-- Is it correct to use p to make an empty line?-->
+            <label>
+                Of which main parts does the HTML file consist? (0 or 1 point)<br>
+                <input type = "radio" name = "question2-v1" value="head and body"> head and body <br>
+                <input type = "radio" name = "question2-v2" value="head, neck, body, arms and legs, tail"> head, neck, body, arms and legs, tail <br>
+                <input type = "radio" name = "question2-v3" value="head, article, footer"> head, article, footer <br>
+                <input type = "radio" name = "question2-v4" value="header, main, aside, footer"> header, main, aside, footer <br>
+            </label>
+            <p></p>
+            <label>
+                What elements are HTML build on? (0 or 2 points)<br>
+                <input type = "checkbox" name = "cheackbox1-v1" value="classes and interfaces"> classes and interfaces <br>
+                <input type = "checkbox" name = "cheackbox1-v2" value="variables and methods"> variables and methods <br>
+                <input type = "checkbox" name = "cheackbox1-v3" value="tags and attributes"> tags and attributes <br>
+                <input type = "checkbox" name = "cheackbox1-v4" value="selector, property, and value"> selector, property, and value <br>
+            </label>
+            <p></p>
+            <label>
+                Nickname:<input type="text" name="user's nickname" placeholder="Nikcname" required><br>
+            </label>
+            <label>
+                Email:<input type="text" name="user's email" placeholder="Email" required><br>
+            </label>
+            <label>
+                Password:<input type="password" name="user's password" placeholder="password" required><br>
+            </label>
+                Species:<br>
+                <input type = "radio" name="user's specie" value="human" checked> human <br>
+                <input type = "radio" name="user's specie" value="monkey"> monkey <br>
+                <input type = "radio" name="user's specie" value="dolphin"> dolphin <br>
+                <input type = "radio" name="user's specie" value="machine"> machine <br>
+                <input type = "radio" name="user's specie" value="other"> other <br>
+                                                    <!--How to make pop-up input field after "other" option?-->
+            <label>
+                Write the name of your specie:<input type="text" name="the specie"
+                                                     placeholder="Write the name of your specie" ><br>
+                                                    <!--How to make input field big enough to contain placeholder?-->
+            </label>
+                <input type="button" value="Submit">
+                <input type="reset" value="reset">
+            <p></p>
+        </form>
+    </main>
+    <footer>
+        <a href="index.html">Return to the home page.</a>
+    </footer>
+</body>
+</html>
